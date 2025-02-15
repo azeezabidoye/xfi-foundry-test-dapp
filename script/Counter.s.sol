@@ -5,7 +5,7 @@ import {Script, console} from "forge-std/Script.sol";
 import {Counter} from "../src/Counter.sol";
 
 contract CounterScript is Script {
-    Counter public counterSome;
+    Counter public counter;
 
     function setUp() public {}
 
